@@ -48,6 +48,10 @@ Rho's interest rate model quotes more slippage if there is less liquidity is in 
 
 ABDK Consulting performed a brief (2 person weeks) audit on commit [24c166155a70db038aee67740b44cbac3646a365](https://github.com/Rho-protocol/rho-contracts/releases/tag/v0.2-alpha). You can find the annotated report [here](https://docs.google.com/document/d/1HAw1EjPbLUGEOBLq5tq01w3zGeA8fK5IiRjcRfI9S6E/edit?usp=sharing).
 
+## About
+
+I am maintaining Rho on a part-time basis on top of my full-time role at Compound. If you would like to contribute to the protocol or have ideas, please reach out on [Discord](https://discord.com/invite/Pvhn5fTVsm). I'm doing my best to keep development open and transparent, and involve the community. 
+
 ## Additional Resources
 * [scenarios](https://docs.google.com/spreadsheets/d/1w2EEdeKWvx7haG0p8vp5h9kBmOGBXVOpb6UTZOOV1io/edit#gid=537619964)
 * [model](https://observablehq.com/d/d04daaa430a6de46)
