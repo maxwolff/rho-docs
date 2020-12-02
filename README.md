@@ -4,10 +4,10 @@ Rho is a protocol for peer-to-pool interest rate swaps. Swaps are benchmarked ag
 
 Rho is in an experimental beta phase. Only risk funds you are willing to lose! The protocol may be redeployed once the trial period expires.
 
-Swap durations are 7 days, cDAI borrow rates are used as a benchmark, and cDAI is used as collateral. The beta deployment includes a liquidity limit, which if reached, will pause new swaps and new liquidity provision. The limit will be increased over time.
+Swap durations are 7 days, cDAI borrow rates are used as a benchmark, and cDAI is used as collateral. The beta deployment includes a liquidity limit, which if reached, will pause new swaps and new liquidity provision. The limit will be increased over time. 
 
-## Deployed Address
-Rho: [0xEC41a154386fe49aFa1339C5419eCB8f19a61294](https://etherscan.io/address/0xEC41a154386fe49aFa1339C5419eCB8f19a61294)
+Rho is deployed at: [0xEC41a154386fe49aFa1339C5419eCB8f19a61294](https://etherscan.io/address/0xEC41a154386fe49aFa1339C5419eCB8f19a61294)
+The app is deployed at: [https://beta.rho.finance](https://beta.rho.finance)
 
 ## Opening Swaps 
 * `openPayFixedSwap(uint notionalAmount, uint maximumFixedRateMantissa)`
