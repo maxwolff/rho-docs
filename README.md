@@ -26,6 +26,7 @@ After the grace period (set to 12 hrs in beta) has elapsed, any user closing a s
 ## Providing liquidity 
 * `function supply(uint cTokenSupplyAmount)`
 * `function remove(uint removeCTokenAmount)`
+
 Liquidity providers effectively take the other side of every user's swap. They earn the spread between the fixed rates they receive and the ones they pay. Unless there are equal amounts of either type of swap, the LPs *will* have exposure to the floating benchmark rate. This exposure could be hedged by opening swaps. 
 
 ## Admin 
