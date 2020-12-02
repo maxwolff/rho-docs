@@ -2,7 +2,9 @@
 
 Rho is a protocol for peer-to-pool interest rate swaps. Swaps are benchmarked against cToken interest rates, meaning that users can either pay a fixed interest rate and receive the floating cToken borrow rate, or vice versa. The protocol uses the benchmarked cToken as collateral, so that users can earn interest while their collateral is locked. The accrued COMP goes into the protocol reserve.
 
-The beta deployment of Rho has a duration of 7 days, is benchmarked against cDAI rates, and uses cDAI as collateral. The beta deployment includes a liquidity limit, which if reached, will pause new swaps and new liquidity provision. The limit will be increased over time.
+Rho is in an experimental beta phase. Only risk funds you are willing to lose! The protocol may be redeployed once the trial period expires.
+
+Swap durations are 7 days, cDAI borrow rates are used as a benchmark, and cDAI is used as collateral. The beta deployment includes a liquidity limit, which if reached, will pause new swaps and new liquidity provision. The limit will be increased over time.
 
 ## Deployed Address
 Rho: [0xEC41a154386fe49aFa1339C5419eCB8f19a61294](https://etherscan.io/address/0xEC41a154386fe49aFa1339C5419eCB8f19a61294)
